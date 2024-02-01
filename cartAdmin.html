@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color:#E0BD9D;
+            font-family: 'Kumbh Sans', sans-serif;
+            padding-top:4%;
+            padding-left:5%;
+            padding-right:5%;
+            padding-bottom:5%;
+        }
+        .cart{
+            background-color:#E0BD9D;
+        }
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            border-radius: 50px;
+            margin-left: 8%;
+        }
+        th, td {
+            border: 2px solid #F1D8B0;
+            padding: 8px;
+            /* text-align: right; */
+            background-color:#F1D8B0;
+            font-size:15px;
+            height:100%;
+        }
+        th {
+            background-color:#F1D8B0;
+            text-align: start;
+        }
+        td{
+            text-align: start;
+        }
+        
+
+        .btn{
+            text-align: center;
+            width:10%;
+            height:100%;
+            /* margin-top:400%; */
+            /* margin-left:25%; */
+            background-color:#E0BD9D;
+            border:solid 2px #F1D8B0;
+            border-radius:5px;
+            font-family: 'Kumbh Sans', sans-serif;
+            font-size:15px;
+            font-weight:600;
+            /* margin-left: 8%; */
+            float:right;
+            margin-right:2%;
+        }
+        .head{
+            font-size:25px;
+            padding-bottom:1%;
+            text-align: center;
+            /* color:white; */
+        }
+        .btn0{
+            background-color:#E0BD9D;
+            border:solid 2px #E0BD9D; border:solid 2px #E0BD9D;  
+            font-family: 'Kumbh Sans', sans-serif;
+            font-size:15px;
+            padding-inline: 4%;
+            border-radius:5px;
+            padding-top:0.8%;
+            padding-bottom:0.8%;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+</head>
+<body>
+    <a href="index.html"><button style=" height:400%;" class="btn" type="button" id="backButton" onclick="window.location.href='./index.html'" style="padding-top:0;">Back</button></a>
+    <div class="cart">
+        <h1 class="head">Admin Order Management</h1>
+        <div id="admin-orders-container"></div>
+        <div id="cart-items-container"></div>  
+        <div id="orders-container"></div>
+    </div>
+    
+
+    <script src="dist/cartAdmin.js"></script>
+</body>
+</html>

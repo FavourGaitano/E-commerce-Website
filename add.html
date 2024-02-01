@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form" class="form">
+        <h3>Add New Product</h3>
+        <div>
+            <label  class ="inputs"  for="picture">Image Link:</label>
+            <input style="width:74%;" class="forminput" id="picture" type="link" name="link" placeholder=" Image Link"></br>
+        </div>
+      
+        <div>
+            <label  class ="inputs" for="title">Name:</label>
+            <input style="width:82%;" class="forminput" id="title" type="string" name="name" placeholder="Name"></br>
+        </div>
+        <div>
+            <label class= "inputs" for="desc">Description:</label>
+            <input style="width:74%;" class="forminput" id="desc" type="string" name="description" placeholder="Description"></br>
+        </div>
+      
+        <div>
+            <label class= "inputs"  for="prc">Price:</label>
+            <input style="width:84%;" class="forminput" id="prc" type="number" name="price" placeholder="Price i.e $0"></br>
+        </div>
+        <input  class="btn" type="submit" value="Submit" id="createEmployeebtn">
+        <a href="index.html"><button style="margin-top:0%; height:180%;"class="btn" type="button" id="backButton" onclick="window.location.href='./index.html'">Back</button></a>
+        
+    </form>
+    <script src="dist/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

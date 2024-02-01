@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color:#E0BD9D;
+            font-family: 'Kumbh Sans', sans-serif;
+            /* padding:5%; */
+            padding-top:4%;
+            padding-left:5%;
+            padding-right:5%;
+            padding-bottom:5%;
+            /* margin-top:10%; */
+        }
+        .cart{
+            background-color:#E0BD9D;
+        }
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            border-radius: 50px;
+            margin-left: 8%;
+        }
+        th, td {
+            border: 2px solid #F1D8B0;
+            padding: 8px;
+            /* text-align: left; */
+            background-color:#F1D8B0;
+            font-size:15px;
+            height:100%;
+        }
+        th {
+            background-color:#F1D8B0;
+            text-align: start;
+        }
+        td{
+            text-align: start;
+        }
+        
+        .btn{
+            text-align: center;
+            width:10%;
+            height:100%;
+            /* margin-top:400%; */
+            /* margin-left:25%; */
+            background-color:#E0BD9D;
+            border:solid 2px #F1D8B0; border:solid 2px #F1D8B0;
+            border-radius:5px;
+            font-family: 'Kumbh Sans', sans-serif;
+            font-size:15px;
+            font-weight:600;
+            /* margin-left: 20%; */
+            float:right;
+            margin-right:2%;
+
+        }
+        .head{
+            font-size:25px;
+            padding-bottom:1%;
+            text-align: start;
+            padding-left:8%;
+            /* color:white; */
+        }
+        .btn1{
+            background-color:#F1D8B0;
+            border:solid 2px #E0BD9D; border:solid 2px #E0BD9D;  
+            font-family: 'Kumbh Sans', sans-serif;
+            font-size:15px;
+            margin-left:8%;
+            margin-top:2%;
+            /* padding:1%; */
+            padding-inline: 2%;
+            border-radius:5px;
+            padding-top:0.5%;
+            padding-bottom:0.5%;
+        }
+        .quantity-btn{
+            background-color:#E0BD9D;
+            border:solid 2px #E0BD9D; border:solid 2px #E0BD9D;
+            border-radius:5px;
+            margin-left:1%;
+            margin-right:1%; 
+            font-family: 'Kumbh Sans', sans-serif;
+            /* font-size:15px; */
+        }
+        .remove-btn{
+            background-color:#E0BD9D;
+            border:solid 2px #E0BD9D; border:solid 2px #E0BD9D;
+            border-radius:5px;
+            font-family: 'Kumbh Sans', sans-serif;
+            font-size:15px;
+            padding-inline: 5%;
+            /* border-radius:5px; */
+            padding-top:0.8%;
+            padding-bottom:0.8%;
+            /* margin-left:1%;
+            margin-right:1%;    */
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    </head>
+<body>
+    <a href="user_dashboard.html"><button style=" height:400%;" class="btn" type="button" id="backButton" onclick="window.location.href='./index.html'" style="padding-top:0;">Back</button></a>
+    <div class="cart">
+        <h1 class="head">Your Shopping Cart</h1>
+        <div id="cart-container"></div>
+        <div id="cart-items-container"></div>  
+        <div id="orders-container"></div>
+
+        <div id="your-orders-container"></div>
+
+    </div>
+   
+    
+    
+
+    <script src="./dist/user.js"></script>
+</body>
+</html>
